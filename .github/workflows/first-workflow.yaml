@@ -14,3 +14,9 @@ jobs:
           echo "🐇"
           echo "🐇 2"
           echo "🐇 3"
+      
+  parallel-job_macos:
+   runs-on: macos-latest
+   steps:
+     - name: View SW Version
+       run: sw_vers
