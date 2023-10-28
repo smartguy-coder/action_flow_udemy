@@ -16,7 +16,14 @@ jobs:
           echo "🐇 3"
       
   parallel-job_macos:
-   runs-on: macos-latest
-   steps:
+    runs-on: macos-latest
+    steps:
      - name: View SW Version
        run: sw_vers
+  
+  dependent-job:
+    runs-on: windows-latest
+    needs: run-shell-commands
+    steps:
+      - name: echo a string windows
+        run: Write-Output "Windows string"
