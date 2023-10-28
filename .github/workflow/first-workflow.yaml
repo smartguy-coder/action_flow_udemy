@@ -12,3 +12,4 @@ jobs:
         run: |
           echo "🐂"
           echo "🐇"
+          echo "🐇 2"
