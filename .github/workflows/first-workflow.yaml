@@ -14,6 +14,7 @@ jobs:
           echo "🐇"
           echo "🐇 2"
           echo "🐇 3"
+          jghkj
       
   parallel-job_macos:
     runs-on: macos-latest
