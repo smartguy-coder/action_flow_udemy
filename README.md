@@ -1,0 +1,1 @@
+[![First Workflow](https://github.com/smartguy-coder/action_flow_udemy/actions/workflows/first-workflow.yaml/badge.svg)](https://github.com/smartguy-coder/action_flow_udemy/actions/workflows/first-workflow.yaml)
